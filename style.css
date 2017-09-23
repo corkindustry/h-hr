@@ -1,0 +1,8 @@
+
+a:link, a:visited {
+  color: #a275e6;
+}
+
+p, address, ul {
+  font-size: 2.5vmin;
+}

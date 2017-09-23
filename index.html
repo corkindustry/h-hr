@@ -3,12 +3,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <head>
     <title>Half-Hearted Retreat</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106557654-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-106557654-1');
+    </script>
   </head>
   <body>
-    <div style="text-align: center;">
-      <img src="images/h-hr1200.png" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-sm-12 col-xs-12">
+          <img class="img-responsive center-block" src="images/h-hr1200.png"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a data-toggle="tab" href="#Home">Home</a></li>
+            <li role="presentation"><a data-toggle="tab" href="#Mission">Mission Statement</a></li>
+            <li role="presentation"><a data-toggle="tab" href="#Photos">Photos</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </body>
+    <div class="tab-content">
+      <div id="Home" class="tab-pane fade in active">
+        <div class="row">
+          <div class="col-md-8 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+            <br/>
+            <p>Half-Hearted Retreat is a quiet, peaceful place right outside of Louisville, in New Albany IN.
+              All artists and writers are welcome to attend during open hours. Time is not structured.
+              People are welcome to come and go at any point during the open hours.
+              Teachers and organizers are welcome to reserve time to run their own workshops and use the space.
+              Internet connection is not available so this is truly an opportunity to unplug, work, and create.
+            </p>
+            <br/>
+            <p>$5 donation will be asked at the door (cash only).
+              Coffee is provided.
+              You are welcome to bring your own food, snacks, or drinks.
+              As always, be mindful and kind to those working around you.
+            </p>
+            <br/>
+            <hr/>
+            <br/>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-5 col-xs-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+              <p>
+                <strong>Donate/Reserve Space:</strong>
+                <br/>
+                Paypal button to donate or reserve a seat for an upcoming Open Hours
+              </p>
+              <address>
+                <strong>Location:</strong><br/>
+                6162 Budd Rd. <br/>
+                New Albany, IN 47150<br/>
+              </address>
+              <address>
+                <strong>Phone:</strong><br/>
+                (812) 944-4883
+              </address>
+              <address>
+                <strong>Email:</strong><br/>
+                <a href="mailto:halfheartedwriters@gmail.com">halfheartedwriters@gmail.com</a>
+              </address>
+            </div>
+          <div class="col-md-4 col-sm-5 col-xs-5">
+            <iframe width="300" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHsKHVocglWqL10TFTeO7YTpnzaDJZWNY&q=6162+Budd+Rd,+New+Albany,+IN+47150"></iframe>
+          </div>
+        </div>
+      </div>
+      <div id="Mission" class="tab-pane fade">
+        <div class="row">
+          <div class="col-md-8 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+            <h1>Mission Statment</h1>
+            <h2 style="color: #e68c75;">Coming Soon</h2>
+          </div>
+        </div>
+      </div>
+      <div id="Photos" class="tab-pane fade">
+        <div class="row">
+          <div class="col-md-8 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+            <h1>Photos</h1>
+            <h2 style="color: #e68c75;">Coming Soon</h2>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
 </html>
